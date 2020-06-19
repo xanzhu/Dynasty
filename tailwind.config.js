@@ -5,7 +5,16 @@
 ** Default: https://github.com/tailwindcss/tailwindcss/blob/master/stubs/defaultConfig.stub.js
 */
 module.exports = {
-  theme: {},
+  theme: {
+    fontFamily: {
+      display: ['Helvetica Neue'],
+      body: ['Open Sans, sans-serif', 'Verdana', 'sans-serif']
+    },
+    fontSize: {
+      sm: '.75rem',
+      lg: '2.25rem'
+    }
+  },
   variants: {},
   plugins: [],
   purge: {
