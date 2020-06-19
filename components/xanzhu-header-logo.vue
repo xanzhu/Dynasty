@@ -1,6 +1,6 @@
 <template>
   <div class="logo-header">
-    <n-link :to="{name: 'index'}" class="link">
+    <n-link :to="{name: 'index'}" class="link" aria-label="Home">
       <p class="version-date font-display">
         A1.1 — JULY 2020
       </p>
@@ -33,6 +33,6 @@
 </style>
 <script>
 export default {
-  name: 'Xheader'
+  name: 'Zheader'
 }
 </script>

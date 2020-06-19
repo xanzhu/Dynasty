@@ -1,20 +1,17 @@
 <template>
   <div>
-    <xheader />
+    <zheader />
     <nuxt />
     <zfooter />
   </div>
 </template>
-<style>
-
-</style>
 <script>
-import xheader from '@/components/xanzhu-header-logo'
+import zheader from '@/components/xanzhu-header-logo'
 import zfooter from '@/components/global-footer'
 
 export default {
   components: {
-    xheader,
+    zheader,
     zfooter
   }
 }
