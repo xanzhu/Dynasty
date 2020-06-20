@@ -1,36 +1,15 @@
 <template>
-  <div class="logo-header">
+  <div class="logo-header text-center sm:text-left mt-4 ml-6 leading-6 font-bold font-display">
     <n-link :to="{name: 'index'}" class="link" aria-label="Home">
-      <p class="version-date font-display">
+      <p class="version-date text-sm pb-1 tracking-wide">
         A1.1 — JULY 2020
       </p>
-      <h1 class="header-branding font-display">
+      <h1 class="header-branding text-xl">
         XANZHU
       </h1>
     </n-link>
   </div>
 </template>
-<style scoped>
-.logo-header {
-  margin: 1em 0 0 1.5em;
-  padding: 0;
-  line-height: 1.7em !important;
-  background-color: inherit;
-  color: inherit;
-  font-weight: bold;
-}
-
-.version-date {
-  font-size: 0.7em;
-  padding-bottom: 0.2em;
-  letter-spacing: 0.4px;
-}
-
-.header-branding {
-  font-size: 4em;
-}
-
-</style>
 <script>
 export default {
   name: 'Zheader'
