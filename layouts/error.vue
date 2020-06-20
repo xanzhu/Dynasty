@@ -13,7 +13,7 @@
       <p>System came across an error </p>
     </div>
     <n-link :to="{name: 'index'}" class="font-body">
-      <button class="bg-red-700 hover:bg-red-800 text-white font-bold py-1 px-4 rounded mt-5">
+      <button class="bg-red-700 hover:bg-red-800 font-normal py-1 px-4 rounded mt-5">
         Return
       </button>
     </n-link>
