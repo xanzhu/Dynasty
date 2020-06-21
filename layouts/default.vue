@@ -5,6 +5,11 @@
     <zfooter />
   </div>
 </template>
+<style>
+body {
+  background-color: #000;
+}
+</style>
 <script>
 import zheader from '@/components/xanzhu-header-logo'
 import zfooter from '@/components/global-footer'
