@@ -1,7 +1,7 @@
 <template>
   <div class="z-footer font-body text-center font-bold text-sm absolute bottom-0 right-0 left-0 pb-10">
     <p>© XANZHU 2020 </p>
-    <div class="text-white font-body font-normal text-opacity-50">
+    <!-- <div class="text-white font-body font-normal text-opacity-50"> ADD ME WHEN PAGES READY
       <n-link :to="{name: '#'}">
         Privacy policy
       </n-link>
@@ -11,7 +11,7 @@
       <n-link :to="{name: '#'}">
         Changelog
       </n-link>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
