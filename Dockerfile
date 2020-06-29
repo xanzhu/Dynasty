@@ -4,12 +4,11 @@ FROM node:14.4.0-slim
 RUN yarn global add nodemon
 
 # Create app directory
-RUN mkdir -p /Applications/A1.1/
-WORKDIR /Applications/A1.1/
+RUN mkdir -p /Applications/A2/
+WORKDIR /Applications/A2/
 
 ONBUILD RUN yarn install
 
 ENV HOST 0.0.0.0
-ENV PORT 3002
 # Install app dependencies
 CMD [ "yarn", "production"]
