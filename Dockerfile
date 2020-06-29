@@ -10,5 +10,6 @@ WORKDIR /Applications/A1.1/
 ONBUILD RUN yarn install
 
 ENV HOST 0.0.0.0
+ENV PORT 3002
 # Install app dependencies
 CMD [ "yarn", "production"]
