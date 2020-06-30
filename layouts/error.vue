@@ -26,6 +26,15 @@ export default {
       type: Object,
       required: true
     }
+  },
+  head () {
+    return {
+      title: 'Page not found — xanzhu',
+      meta: [
+        { hid: 'description', name: 'description', content: 'The requested page/request could not be found, please try again.' },
+        { hid: 'robots', name: 'robots', content: 'noindex nofollow' }
+      ]
+    }
   }
 }
 </script>
