@@ -5,6 +5,7 @@ export default {
   ** See https://nuxtjs.org/api/configuration-mode
   */
   mode: 'universal',
+  modern: 'client',
   target: 'static',
   /*
   ** Headers of the page
@@ -19,17 +20,16 @@ export default {
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'description', content: 'xanzhu.com is currently being developed. Check back soon!' },
-      { hid: 'keywords', name: 'keywords', content: 'xanzhu, design, news, music, fashion, technology, tech, media, security, Apple, Android, Google'},
-      { property: 'og:type', type: 'website'},
-      { property: 'og:title', type: 'XANZHU'},
-      { property: 'og:description', type: 'xanzhu.com is a large scale project which is currently being developed!'},
-      { property: 'og:url', type: 'https://xanzhu.com'}
+      { hid: 'keywords', name: 'keywords', content: 'xanzhu, design, news, music, fashion, technology, tech, media, security, Apple, Android, Google' },
+      { property: 'og:type', type: 'website' },
+      { property: 'og:title', type: 'XANZHU' },
+      { property: 'og:description', type: 'xanzhu.com is a large scale project which is currently being developed!' },
+      { property: 'og:url', type: 'https://xanzhu.com' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v2' },
-      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
-      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#ff0000' }
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-DF21.png' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-DF42.png' },
+      { rel: 'mask-icon', href: '/safari-DF01.svg', color: '#ff0000' }
     ]
   },
   /*
@@ -56,6 +56,7 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxt/content'
   ],
   /*
   ** Build configuration
