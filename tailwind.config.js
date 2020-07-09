@@ -9,13 +9,14 @@ module.exports = {
     fontFamily: {
       display: ['Helvetica Neue'],
       body: ['Open Sans, sans-serif', 'Verdana', 'sans-serif']
-    },
-    fontSize: {
-      sm: '.75rem',
-      md: '1.5rem',
-      lg: '2.25rem',
-      xl: '3.5rem'
     }
+    // },
+    // fontSize: {
+    //   sm: '.75rem',
+    //   md: '1.5rem',
+    //   lg: '2.25rem',
+    //   xl: '3.5rem'
+    // }
   },
   variants: {},
   plugins: [],

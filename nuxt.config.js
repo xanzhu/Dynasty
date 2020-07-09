@@ -15,6 +15,9 @@ export default {
     htmlAttrs: {
       lang: 'en'
     },
+    bodyAttrs: {
+      class: 'bg-black'
+    },
     title: 'Home — xanzhu',
     meta: [
       { charset: 'utf-8' },
@@ -22,9 +25,9 @@ export default {
       { name: 'description', content: 'xanzhu.com is currently being developed. Check back soon!' },
       { hid: 'keywords', name: 'keywords', content: 'xanzhu, design, news, music, fashion, technology, tech, media, security, Apple, Android, Google' },
       { property: 'og:type', type: 'website' },
-      { property: 'og:title', type: 'XANZHU' },
-      { property: 'og:description', type: 'xanzhu.com is a large scale project which is currently being developed!' },
-      { property: 'og:url', type: 'https://xanzhu.com' }
+      { property: 'og:title', content: 'XANZHU' },
+      { property: 'og:description', content: 'xanzhu.com is a large scale project which is currently being developed!' },
+      { property: 'og:url', content: 'https://xanzhu.com' }
     ],
     link: [
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-DF21.png' },

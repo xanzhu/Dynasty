@@ -1,8 +1,7 @@
 <template>
-  <div class="z-footer font-body text-center font-bold text-sm absolute bottom-0 right-0 left-0 pb-10">
-    <p>© XANZHU 2020 </p>
-    <!-- <img src="/favicon-16x16.png" class="inline" aria-label="Visual logo"> -->
-    <!-- <div class="text-white font-body font-normal text-opacity-50">
+  <div class="text-center font-medium text-xs absolute bottom-0 right-0 left-0 pb-1 sm:text-sm">
+    <!-- <p>© XANZHU 2020 </p>
+     <div class="text-white font-body font-normal text-opacity-50">
       <n-link :to="{name: '#'}">
         Security
       </n-link>
@@ -13,6 +12,7 @@
         Changelog
       </n-link>
     </div> -->
+    <p>© XANZHU 2020</p>
   </div>
 </template>
 <script>
