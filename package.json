@@ -11,7 +11,7 @@
     "lint": "yarn lint:js",
     "pre": "nuxt serve",
     "production": "yarn build && yarn export",
-    "modern": "yarn build --modern && export"
+    "modern": "yarn build --modern && yarn export"
   },
   "dependencies": {
     "@nuxt/content": "1.4.1",
