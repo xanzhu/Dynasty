@@ -3,7 +3,7 @@
     <h2 class="font-medium text-2xl sm:text-3xl sm:leading-9">
       Our servers are currently being updated.
     </h2>
-    <div class="mt-2 break-word text-sm leading-5 text-gray-300 sm:text-base">
+    <div class="mt-2 mx-5 break-word text-sm leading-5 text-gray-300 sm:text-base">
       <p>
         This page will constantly update as we improve our design.
       </p>
