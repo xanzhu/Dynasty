@@ -27,7 +27,8 @@ export default {
       { property: 'og:type', type: 'website' },
       { property: 'og:title', content: 'XANZHU' },
       { property: 'og:description', content: 'xanzhu.com is a large scale project which is currently being developed!' },
-      { property: 'og:url', content: 'https://xanzhu.com' }
+      { property: 'og:url', content: 'https://xanzhu.com' },
+      { property: "og:image", content="/favicon-DF42.png" }
     ],
     link: [
       { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-DF21.png' },

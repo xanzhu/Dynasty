@@ -1,6 +1,6 @@
 <template>
-  <div class="error text-center pt-20 pb-5">
-    <div v-if="error.statusCode === 404" class="404 font-display mt-8">
+  <div class="text-center pt-20 pb-5">
+    <div v-if="error.statusCode === 404" class="font-display mt-8">
       <h1 class="text-lg">
         Page not found
       </h1>

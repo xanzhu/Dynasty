@@ -11,6 +11,13 @@
         We expect to release our website by the end of the year. Stay Tuned!
       </p>
     </div>
-    <img src="/favicon-DF42.png" width="32" height="32" class="pt-5 inline" aria-hidden="true">
+    <img
+      src="/favicon-DF42.png"
+      width="32"
+      height="32"
+      class="pt-5 inline"
+      aria-hidden="true"
+      alt="xanzhu logo"
+    >
   </div>
 </template>
