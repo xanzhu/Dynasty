@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 text-center sm:mx-10">
+  <div class="mt-20 text-center sm:mx-10 mx-3">
     <h2 class="font-medium text-2xl sm:text-3xl sm:leading-9">
       Our servers are currently being updated.
     </h2>

@@ -9,13 +9,18 @@ module.exports = {
     fontFamily: {
       display: ['Helvetica Neue'],
       body: ['Open Sans, sans-serif', 'Verdana', 'sans-serif']
-    }
-    // },
-    // fontSize: {
-    //   sm: '.75rem',
-    //   md: '1.5rem',
-    //   lg: '2.25rem',
-    //   xl: '3.5rem'
+    },
+    inset: {
+      0: 0,
+      auto: 'auto',
+      '1/2': '50%'
+    },
+    // extend: {
+    //   colors: {
+    //     gray: {
+    //       '909': '#0A181C',
+    //     }
+    //   }
     // }
   },
   variants: {},
