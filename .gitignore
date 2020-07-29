@@ -88,3 +88,8 @@ sw.*
 
 # Vim swap files
 *.swp
+
+# Developer section (Features not yet ready)
+static/svg
+pages/blog
+content/articles
