@@ -15,13 +15,6 @@ module.exports = {
       auto: 'auto',
       '1/2': '50%'
     },
-    // extend: {
-    //   colors: {
-    //     gray: {
-    //       '909': '#0A181C',
-    //     }
-    //   }
-    // }
   },
   variants: {},
   plugins: [],

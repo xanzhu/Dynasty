@@ -5,22 +5,22 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nuxt build",
     "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lint": "yarn lint:js",
-    "pre": "nuxt serve",
-    "production": "yarn build --modern"
+    "pre": "nuxt start",
+    "production": "yarn build --modern",
+    "build":"nuxt generate"
   },
   "dependencies": {
-    "@nuxt/content": "1.6.0",
-    "nuxt": "2.14.1"
+    "@nuxt/content": "1.8.1",
+    "nuxt": "2.14.4"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "3.1.0",
     "@nuxtjs/eslint-module": "2.0.0",
-    "@nuxtjs/tailwindcss": "3.0.0",
+    "@nuxtjs/tailwindcss": "3.0.2",
     "babel-eslint": "10.1.0",
-    "eslint": "7.7.0",
+    "eslint": "7.8.1",
     "eslint-plugin-nuxt": "1.0.0"
   }
 }
