@@ -1,14 +1,14 @@
 
 export default {
-  render: {
-    csp: {
-      hashAlgorithm: 'sha256',
-      policies: {
-        'script-src': ["'self'"],
-        // 'style-src': ["'self'"]
-      }
-    }
-  },
+  // render: {
+  //   csp: {
+  //     hashAlgorithm: 'sha256',
+  //     policies: {
+  //       'script-src': ["'self'"],
+  //       // 'style-src': ["'self'"]
+  //     }
+  //   }
+  // },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
@@ -30,7 +30,7 @@ export default {
     title: 'Home — xanzhu',
     meta: [
       { charset: 'utf-8' },
-      { name: 'http-equiv', content:'Content-Security-Policy'},
+      // { name: 'http-equiv', content:'Content-Security-Policy'},
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'description', content: 'xanzhu.com is currently being developed. Check back soon!' },
       { hid: 'keywords', name: 'keywords', content: 'xanzhu, design, news, music, fashion, technology, tech, media, security, Apple, Android, Google' },
