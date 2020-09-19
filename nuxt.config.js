@@ -4,7 +4,7 @@ export default {
     csp: {
       hashAlgorithm: 'sha256',
       policies: {
-        'default-src': ["'self'"],
+        'script-src': ["'self'"],
         // 'style-src': ["'self'"]
       }
     }
