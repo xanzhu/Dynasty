@@ -1,5 +1,15 @@
 
 export default {
+  render: {
+    csp: {
+      hashAlgorithm: 'sha256',
+      policies: {
+        'default-src': ["'self'"],
+        // 'style-src': ["'self'"]
+      },
+      addMeta: true
+    }
+  },
   /*
   ** Nuxt rendering mode
   ** See https://nuxtjs.org/api/configuration-mode
