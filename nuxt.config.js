@@ -31,7 +31,7 @@ export default {
     title: 'Home — xanzhu',
     meta: [
       { charset: 'utf-8' },
-      { name: 'http-equiv', content:'Content-Security-Policy'},
+      { name: 'http-equiv', content: 'Content-Security-Policy' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'description', content: 'xanzhu.com is currently being developed. Check back soon!' },
       { hid: 'keywords', name: 'keywords', content: 'xanzhu, design, news, music, fashion, technology, tech, media, security, Apple, Android, Google' },
@@ -70,9 +70,7 @@ export default {
   /*
   ** Nuxt.js modules
   */
-  modules: [
-    '@nuxt/content'
-  ],
+  modules: [],
   /*
   ** Build configuration
   ** See https://nuxtjs.org/api/configuration-build/
